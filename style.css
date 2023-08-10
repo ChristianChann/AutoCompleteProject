@@ -1,0 +1,41 @@
+
+body{
+    background-color: #343a34;
+}
+
+.Container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.controlContainer{
+    width: 100%;
+    margin-top: 100px;
+    max-width: 500px;
+}
+
+
+.autoComplete{
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+    
+
+
+.productItemContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    height: 50px;
+    border-bottom: 0 solid lightgrey;
+    background-color: #fff;
+}
+
+.Enter{
+    position: relative;
+    right: 40px;
+
+}
